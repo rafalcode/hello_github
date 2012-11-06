@@ -9,3 +9,6 @@ I'm going to slowly build up this particular file. Which means, that this file, 
 
 * built-up
 * slowly
+
+Here's a **gratutitous link**:
+(Note the resemblance to a [finite mixture model](http://en.wikipedia.org/wiki/Mixture_model).)
