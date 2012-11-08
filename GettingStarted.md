@@ -3,7 +3,7 @@
 So you've decided to show off your coding skillz, you've used a little git and you've heard of the popular github site. This is a small account of the steps you'll have to go through.
 
 ## Preliminaries
-Of course you'll have to have git set up on your local machine. And you will indeed have to create a userid on the github site. If you're like me you'll favour ssh for communicating with remote hosts, so as soon as you have your github account, yuo'll want to paste in your public key into the appropriate section of github's account settings.
+Of course you'll have to have git set up on your local machine. And you will indeed have to create a userid on the github site. If you're like me you'll favour ssh for communicating with remote hosts, so as soon as you have your github account, you'll want to paste in your public key into the appropriate section of github's account settings.
 
 ## Global configure variables in you local user
 
@@ -51,18 +51,24 @@ git branch
 ```
 
 ## You want a branch you create locally to be also on the remote repository.
-This by no means is done automatically, and so you the following command to get the branch uo ther pr
+This by no means is done automatically, and so you the following command to get the branch up there wiht the others that are attached to the remote handle.
+```
+git push -u <remotehandle> develop
+```
+So this gets you develop branch up there and github will give you a rough comparative timeline how advanced each branch is.
 
 ## Routinely, you'll be doing this:
 ```
 git add <list of changed file>
 git commit -m "my comments for the latest patch"
-git push <remotehandle>
+git push <remotehandle> <branch>
 ```
 
-## Workflows that suit git
-It's wise to keep in mind that any tool is subject to optimal and ineffectual use depending on the nmmaner in which it used. I repeat, that happens with all tools. SO a good question to ask is whether there's a way of arranging work that suits git, and perhaps, over on the dark side, ways of using it that render it ineffectual. I'll go into the former, but not the latter you'll be relieved to hear.
+Note that the first line is the staging part, and you have a choice as to which files are included. You can also just use a period here, if you want all possible files included, though that seems a little lazy.
 
-Here are some links to this issue:
+## Workflows that suit git
+It's wise to keep in mind that any tool is subject to optimal and ineffectual use depending on the manner in which it used. I repeat, that happens with all tools. So a good question to ask is whether there's a way of arranging work that suits git, and perhaps - over on the dark side - ways of using it that render it ineffectual. I'll go into the former, but not the latter you'll be relieved to hear.
+
+This whole issue is termed workflow and here are some decent links to the issue:
 * [Scott's link](http://scottchacon.com/2011/08/31/github-flow.htmli)
 * [Linked from Openblas](http://nvie.com/posts/a-successful-git-branching-model/)
