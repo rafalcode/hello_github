@@ -57,5 +57,12 @@ This by no means is done automatically, and so you the following command to get 
 ```
 git add <list of changed file>
 git commit -m "my comments for the latest patch"
-git push <remotehandle
+git push <remotehandle>
 ```
+
+## Workflows that suit git
+It's wise to keep in mind that any tool is subject to optimal and ineffectual use depending on the nmmaner in which it used. I repeat, that happens with all tools. SO a good question to ask is whether there's a way of arranging work that suits git, and perhaps, over on the dark side, ways of using it that render it ineffectual. I'll go into the former, but not the latter you'll be relieved to hear.
+
+Here are some links to this issue:
+* [Scott's link](http://scottchacon.com/2011/08/31/github-flow.htmli)
+* [Linked from Openblas](http://nvie.com/posts/a-successful-git-branching-model/)
