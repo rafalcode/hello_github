@@ -1,4 +1,8 @@
 This is the way things stand
 one could say
 
+devel wrote this:
 but my other me is doing this
+
+and master wrote this:
+but I'm doin this now
